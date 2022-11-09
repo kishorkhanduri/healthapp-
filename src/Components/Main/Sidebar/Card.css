@@ -1,0 +1,27 @@
+.card{
+    height: 230px;
+    background-image: url(../../vector.jpg);
+    background-size: cover;
+    width: 250px;
+    filter: brightness(91%);
+}
+.card h2{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1 img{
+    width: 28px;
+}
+.img2 img{
+    width: 70px;
+    filter: invert();
+}

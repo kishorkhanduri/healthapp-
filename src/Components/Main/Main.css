@@ -1,0 +1,73 @@
+.main{
+    background-color: #CBC3E3;
+    height: 120vh;
+    display: flex;
+    padding: 1rem;
+   
+
+}
+
+.sidebar{
+    width: 20%;
+}
+
+.info-card{
+    display: flex;
+    gap: 2rem;
+    width: 60%;
+
+}
+
+.chart1{
+    display: flex;
+    gap: 1rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    width: 37.5%;
+
+}
+
+.main-right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 2rem ;
+}
+.piechart{
+    margin-top: -40px;
+    width: 2%;
+}
+.graph-mid{
+    display: flex;
+    gap: 2rem;
+    height: 54%;
+    position: relative;
+}
+.piechart2{
+    background-color: white;
+    width: 11.5%;
+    border-radius: 0.3rem;
+    top: 40px;
+ 
+ 
+}
+
+.footer{
+   display: flex;
+   gap: 2rem;
+   align-items: center;
+   justify-content: flex-start;
+
+}
+.f-first{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+.f-second{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+

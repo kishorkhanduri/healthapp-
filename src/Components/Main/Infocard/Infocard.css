@@ -1,0 +1,35 @@
+.Infocard{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    border: 0.3px solid white;
+    width: 15rem;
+    height: 6.5rem;
+    border-radius: 3px;
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+}
+
+.Infocard img{
+    width: 40px;
+    border-radius: 50%;
+    color: #00ac9d;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+}
+
+.info-text h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.info-text p{
+    font-size: 1rem;
+    color: gray;
+    font-weight: 500;
+}

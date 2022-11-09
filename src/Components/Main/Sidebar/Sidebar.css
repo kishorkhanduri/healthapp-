@@ -1,0 +1,58 @@
+.Sidebar{
+  margin-top: -1rem;
+  margin-left: -1rem;
+
+    height: 100%;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .SidebarList{
+    height: auto;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .SidebarList .row{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: #0094cb;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  
+  }
+  .Sidebar .row:hover{
+    cursor: pointer;
+    color: #7449dd;
+  }
+  .row #icon{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+  }
+  .row #title{
+    flex: 70%;
+  }
+ 
+ .Sidebar .r-btn{
+    background-color: #7449dd;
+    color: white;
+    margin-top: -8rem;
+    margin-bottom: 1rem;
+    
+  }
+  .Sidebar .r-btn span{
+    font-weight: bold;
+    font-size: 1rem;
+  }

@@ -3,51 +3,56 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
- 
- }
- .nav-left{
-     display: flex;
-     align-items: center;
-     gap: 0.4rem;
- }
- .nav-left img{
-     width: 30px;
- }
- .nav-left h4{
-     font-size: 1.2rem;
-     margin-top: 4px;
- }
- 
- 
- /* mid part */
- 
- .nav-mid{
-     display: flex;
-     gap: 1rem;
-     align-items: center;
-     justify-content: center;
- }
- .nav-mid i{
-     opacity: 0.7;
- }
- .nav-mid input{
-     border: none;
-     outline: none;
- }
- 
- /* nav right */
- .nav-right{
-     display: flex;
-     gap: 1rem;
-     align-items: center;
-     justify-content: center;
- }
- 
- .nav-right i{
-     opacity: 0.7;
- }
- 
- .nav-right h4{
-     font-size: 1rem;
-     color: gray;
- }
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.nav-left img{
+    width: 30px;
+}
+
+.nav-left h4{
+    font-size: 1.2rem;
+    margin-top: 4px;
+}
+
+
+/* mid-part */
+
+.nav-mid{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-mid i{
+    opacity: 0.7;
+}
+
+.nav-mid input{
+    border: none;
+    outline: none;
+}
+
+/* nav right  */
+.nav-right{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right i{
+    opacity: 0.7;
+
+}
+
+.nav-right h4{
+    font-size: 1rem;
+    color: grey;
+}
